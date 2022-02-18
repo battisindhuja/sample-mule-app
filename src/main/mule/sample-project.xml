@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="sample-projectFlow" doc:id="53edafcb-5005-4f0f-829e-a0be4ef0b6cc" >
 		<http:listener doc:name="Listener  GET /test" doc:id="bcc52057-7abc-4515-8514-ba3d4077ca54" config-ref="HTTP_Listener_config" path="test"/>
-		<set-payload value="*** Dummy payload - GITHUB-2***" doc:name="Set Payload" doc:id="c687bc1c-7b1c-415b-b217-6b80afdc900a" />
+		<set-payload value="*** Dummy payload - GITHUB-3***" doc:name="Set Payload" doc:id="c687bc1c-7b1c-415b-b217-6b80afdc900a" />
 	</flow>
 </mule>
